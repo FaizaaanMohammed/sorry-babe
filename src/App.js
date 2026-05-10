@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Box, Button, Typography, Container, Paper, Stack } from "@mui/material";
 import { motion, AnimatePresence, useAnimationControls } from "framer-motion";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ThumbDownIcon from "@mui/icons-material/ThumbDown";
+
 
 const FinalSafeApology = () => {
   const [isForgiven, setIsForgiven] = useState(false);

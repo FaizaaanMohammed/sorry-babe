@@ -93,8 +93,8 @@ const FinalSafeApology = () => {
             <motion.div key="success" initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} onClick={(e) => e.stopPropagation()}>
               <Paper sx={{ p: 5, borderRadius: "40px", textAlign: "center", background: "#fff" }}>
                 <div style={{ fontSize: "5rem" }}>🥰</div>
-                <Typography variant="h4" sx={{ fontWeight: 900, color: "#FF416C" }}>I Love You!</Typography>
-                <Typography sx={{ color: "#666", mt: 2 }}>Coming with snacks! 3:30 Station pe wait krunga!</Typography>
+                <Typography variant="" sx={{ fontWeight: 900, color: "#FF416C" }}>I Love You!Coming with snacks & chocolates, Baccha! 🍫🍕</Typography>
+                <Typography sx={{ color: "#666", mt: 2 }}>3:30 Station pe aaunga mai. Wait krunga! Mere sms pack over ho chuka hai aaj 3-4 hoga ar khud phone krlena mujhe pata nhi hoga kon hoga tumahre pass kon nhi !</Typography>
               </Paper>
             </motion.div>
           )}
